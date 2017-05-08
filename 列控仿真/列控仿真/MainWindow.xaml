@@ -1,0 +1,37 @@
+﻿<Window x:Class="列控仿真.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="918" Width="1600" Background="Black">
+    <Grid Margin="-44,0,44,4" RenderTransformOrigin="0.563,0.517">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="292*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1180*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="383*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas x:Name="canvas1" HorizontalAlignment="Center" Height="330" VerticalAlignment="Top" Width="1500" Margin="40,246.5,52,0" Background="Black" Grid.ColumnSpan="3" Grid.Row="1">
+            <Label x:Name="timelabel" Content="" Height="24" Canvas.Left="1410" Canvas.Top="-42" Width="78" Background="Black" Foreground="White"/>
+        </Canvas>
+        <Button x:Name="add_a_train" Content="add a train" HorizontalAlignment="Left" Height="36" Margin="46,667.5,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click_1" RenderTransformOrigin="0.521,0.556" Grid.Column="2" Grid.Row="1"/>
+        <Label x:Name="v_s_l" Content="Label" Grid.Column="2" HorizontalAlignment="Left" Height="41" Margin="230,611.5,0,0" VerticalAlignment="Top" Width="114" Foreground="White" Grid.Row="1"/>
+        <Label x:Name="disshow" Content="" HorizontalAlignment="Left" Margin="416,625.5,0,0" VerticalAlignment="Top" Height="25" Width="400" Foreground="White" Grid.Row="1"/>
+        <Label x:Name="status" Content="" HorizontalAlignment="Left" Margin="416,650.5,0,0" VerticalAlignment="Top" Width="570" Height="25" Foreground="White" Grid.Row="1"/>
+        <Slider x:Name="v_s_c" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="230,581.5,0,0" VerticalAlignment="Top" Width="114" LargeChange="0.5" ValueChanged="Slider_ValueChanged_1" Value="1" SmallChange="0.5" Minimum="1" Cursor="" Maximum="20" Grid.Row="1"/>
+        <ListBox x:Name="train_list" HorizontalAlignment="Left" Height="144" Margin="126,581.5,0,0" VerticalAlignment="Top" Width="232" SelectionChanged="train_list_SelectionChanged" Grid.Row="1"/>
+        <Label x:Name="speed" Content="" HorizontalAlignment="Left" Margin="416,600.5,0,0" VerticalAlignment="Top" Height="25" Width="454" Foreground="White" Grid.Row="1"/>
+        <Label x:Name="acc_l" Content="" HorizontalAlignment="Left" Margin="416,675.5,0,0" VerticalAlignment="Top" Width="570" Height="25" Foreground="White" Grid.Row="1"/>
+        <Button x:Name="draw_track" Content="初始化" HorizontalAlignment="Left" Height="50" Margin="1126,533,0,0" VerticalAlignment="Top" Width="114" Click="draw_track_Click" Grid.Row="1" Grid.ColumnSpan="3"/>
+        <Label x:Name="section_setting" Content="闭塞分区数：10" HorizontalAlignment="Left" Margin="230,692.5,0,0" VerticalAlignment="Top" Width="114" Height="25" Foreground="White" Grid.Column="2" Grid.Row="1"/>
+        <Button x:Name="add_sec" Content="+" Grid.Column="2" HorizontalAlignment="Left" Height="17" Margin="306,675.5,0,0" VerticalAlignment="Top" Width="18" FontSize="10" Click="Button_Click_2" Grid.Row="1"/>
+        <Button x:Name="red_sec" Content="-" Grid.Column="2" HorizontalAlignment="Left" Height="17" Margin="306,717.5,0,0" VerticalAlignment="Top" Width="18" FontSize="10" Click="red_sec_Click" Grid.Row="1"/>
+        <Button x:Name="reset" Content="复位" HorizontalAlignment="Left" Height="50" Margin="228,761.5,0,0" VerticalAlignment="Top" Width="114" Grid.Column="2" Click="reset_Click" Grid.Row="1"/>
+        <Canvas x:Name="v_d_chart" HorizontalAlignment="Left" Height="200" Margin="40,1.5,0,0" VerticalAlignment="Top" Width="1500" Background="Black" Grid.ColumnSpan="3" Grid.Row="1"/>
+        <TextBox x:Name="initial_v" HorizontalAlignment="Left" Height="22" Margin="46,640.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Grid.Column="2" Grid.Row="1" Text="0"/>
+        <Label Content="v" HorizontalAlignment="Left" Height="28" Margin="20,1,0,0" VerticalAlignment="Top" Width="20" Grid.Row="1" Foreground="White"/>
+        <Label Content="s" HorizontalAlignment="Left" Height="26" Margin="318,201,0,0" VerticalAlignment="Top" Width="20" Grid.Row="1" Foreground="White" Grid.Column="2"/>
+
+    </Grid>
+</Window>

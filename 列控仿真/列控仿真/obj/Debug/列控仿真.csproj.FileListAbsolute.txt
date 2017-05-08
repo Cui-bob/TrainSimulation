@@ -1,0 +1,13 @@
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\bin\Debug\列控仿真.exe.config
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\bin\Debug\列控仿真.exe
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\bin\Debug\列控仿真.pdb
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\列控仿真.csprojResolveAssemblyReference.cache
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\MainWindow.baml
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\MainWindow.g.cs
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\App.g.cs
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\列控仿真_MarkupCompile.cache
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\列控仿真.g.resources
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\列控仿真.Properties.Resources.resources
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\列控仿真.csproj.GenerateResource.Cache
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\列控仿真.exe
+e:\360data\重要数据\我的文档\visual studio 2012\Projects\列控仿真\列控仿真\obj\Debug\列控仿真.pdb
